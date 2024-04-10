@@ -1,0 +1,392 @@
+
+.contact-me-page
+{
+     
+    margin-top: 500px;
+    height: 300px;
+    width: 100%;
+
+    display: block;
+}
+
+
+.contact-me-text
+{
+  
+    font-family: anta;
+    font-size: 110px;
+    width: 42%;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    height: 130px;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-top-style: dotted;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+
+}
+
+.container
+{
+
+    margin-left: 30%;
+    height: 230px; 
+}
+
+.full-name-class
+{
+    height: 60px;
+}
+
+
+.full-name
+{
+    height: 45px;
+    border-width: 0.3px;
+    width: 600px;
+    padding-left: 10px;
+    padding-top:5px ;
+    font-family: anta;
+    font-size: 20px;
+}
+
+
+.full-name:focus
+{
+    outline: none;
+}
+
+.email-address-class
+{
+    height: 60px; 
+}
+
+.email-address
+{
+    height: 45px;
+    border-width: 0.3px;
+    width: 600px;
+    padding-left: 10px;
+    padding-top:5px ;
+    font-family: anta;
+    font-size: 20px;
+}
+
+.email-address:focus
+{
+    outline: none;
+}
+
+.text-message
+{
+    height: 200px;
+    width: 600px;
+    border-width: 0.3px;
+    padding-left: 10px;
+    padding-top:10px;
+    font-family: anta;
+    resize: none;
+    font-size: 20px;
+}
+
+.text-message:focus
+{
+    outline: none;
+
+
+}
+
+.send-button
+{
+    height: 50px;
+    width: 300px;
+    border-width: 0;
+    background-color: rgb(144, 144, 144);
+    border-color: rgb(144, 143, 143);
+    font-family: anta;
+    transition: background-color 0.2s;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+.send-button:hover
+{
+    cursor: pointer;
+    background-color:gray;
+}
+
+.reset-button
+{
+    height: 50px;
+    width: 300px;
+    border-width: 0;
+    background-color: rgb(144, 144, 144);
+    border-color: rgb(144, 143, 143);
+    font-family: anta;
+    transition: background-color 0.2s;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.reset-button:hover
+{
+    cursor: pointer;
+    background-color:gray;
+    
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .contact-me-page
+    {
+        
+        margin-top: 400px;
+        height: 300px;
+        width: 98%;
+
+        display: block;
+    }
+
+    
+    
+    
+    
+    
+    
+    .contact-me-text
+    {
+      
+        font-family: anta;
+        font-size: 55px;
+        width: 85%;
+        margin-left: 8%;
+        margin-bottom: 40px;
+        height: 80px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+    
+    }   
+
+    .container
+    {
+
+        margin-left: 0;
+        height: 230px; 
+    }
+    .full-name
+    {
+        height: 45px;
+        border-width: 0.3px;
+        width: 90%;
+        padding-left: 10px;
+        padding-top:5px ;
+        font-family: anta;
+        font-size: 20px;
+        margin-left: 3%;
+    }
+
+    .email-address
+    {
+        height: 45px;
+        border-width: 0.3px;
+        width: 90%;
+        padding-left: 10px;
+        padding-top:5px ;
+        font-family: anta;
+        font-size: 20px;
+        margin-left: 3%;
+    }
+    .text-message
+    {
+        height: 200px;
+        width: 90%;
+        margin-left: 3%;
+        border-width: 0.3px;
+        padding-left: 10px;
+        padding-top:10px;
+        font-family: anta;
+        resize: none;
+        font-size: 20px;
+    }
+    .send-button
+    {
+        height: 50px;
+        width: 90%;
+        border-width: 0;
+        background-color: rgb(144, 144, 144);
+        border-color: rgb(144, 143, 143);
+        font-family: anta;
+        transition: background-color 0.2s;
+        color: white;
+        margin-left: 4%;
+        margin-bottom: 3px;
+
+    }
+
+    .reset-button
+    {
+        height: 50px;
+        width: 90%;
+        border-width: 0;
+        background-color: rgb(144, 144, 144);
+        border-color: rgb(144, 143, 143);
+        font-family: anta;
+        transition: background-color 0.2s;
+        color: white;
+        margin-bottom: 50px;
+        margin-left: 4%;
+    }
+
+
+
+}
+
+@media only screen and (max-width:385px) 
+{
+    .contact-me-text
+    {
+      
+        font-family: anta;
+        font-size: 48px;
+        width: 80%;
+        margin-left: 13%;
+        margin-bottom: 40px;
+        height: 80px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+    
+    }   
+}
+
+@media only screen and (max-width: 920px) and (orientation : landscape)
+{
+    .contact-me-page
+    {
+        
+        margin-top: 600px;
+        height: 300px;
+        width: 98%;
+
+        display: block;
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .contact-me-text
+    {
+      
+        font-family: anta;
+        font-size: 110px;
+        width: 600px;
+        
+        margin-left: 15%;
+        margin-bottom: 40px;
+        
+        height: 130px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+        
+    
+    }   
+    .full-name
+    {
+        height: 45px;
+        border-width: 0.3px;
+        width: 90%;
+        padding-left: 10px;
+        padding-top:5px ;
+        font-family: anta;
+        font-size: 20px;
+        margin-left: 0%;
+    }
+
+    .email-address
+    {
+        height: 45px;
+        border-width: 0.3px;
+        width: 90%;
+        padding-left: 10px;
+        padding-top:5px ;
+        font-family: anta;
+        font-size: 20px;
+        margin-left: 0%;
+    }
+    .text-message
+    {
+        height: 200px;
+        width: 90%;
+        margin-left: 0%;
+        border-width: 0.3px;
+        padding-left: 10px;
+        padding-top:10px;
+        font-family: anta;
+        resize: none;
+        font-size: 20px;
+    }
+    .send-button
+    {
+        height: 50px;
+        width: 90%;
+        border-width: 0;
+        background-color: rgb(144, 144, 144);
+        border-color: rgb(144, 143, 143);
+        font-family: anta;
+        transition: background-color 0.2s;
+        color: white;
+        margin-left: 1%;
+        margin-bottom: 3px;
+
+    }
+
+    .reset-button
+    {
+        height: 50px;
+        width: 90%;
+        border-width: 0;
+        background-color: rgb(144, 144, 144);
+        border-color: rgb(144, 143, 143);
+        font-family: anta;
+        transition: background-color 0.2s;
+        color: white;
+        margin-bottom: 50px;
+        margin-left: 1%;
+    }
+    .container
+    {
+
+        margin-left: 8%;
+        height: 230px; 
+    }
+
+
+
+}
+
+
+
+
+
+

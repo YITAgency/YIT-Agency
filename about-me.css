@@ -1,0 +1,209 @@
+.about-me-page
+{
+    
+    display: block;
+    height: 550px;
+    
+    width: 100%;
+}
+.video
+{
+    
+    
+    width:900px;
+    margin-left: 12.5%;
+    
+   
+    
+
+}
+.about-me-paragraph
+{
+    
+    
+    
+    width: 50%;
+    margin-left: 20%;
+    font-size: 30px;
+    font-family: anta;
+    border-style: dotted;
+    padding: 10px;
+    padding-left: 95px;
+    padding-right: 41px;
+    
+
+} 
+
+.about-me-text
+{
+
+    font-size: 110px;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: anta;
+    color: black;
+    width: 500px;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-top-style: dotted;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+}
+p
+{
+    width: 680px;
+}
+
+
+
+
+/*MOBILE VERSION  */
+
+
+@media only screen and (max-width: 600px)
+{
+    
+    .video
+    {
+        width: 100%;
+        margin-left: 0px;
+       
+    }
+    .about-me-text
+    {
+        font-size: 60px;
+        margin-left:15%;
+        width: 70%;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .about-me-paragraph
+    {
+        
+        
+        
+        width: 94%;
+        margin-left: 0px;
+        font-size: 20px;
+        font-family: anta;
+        border-style: dotted;
+        padding: 10px;
+        margin-top: 10px;
+        padding-right: 6px;
+        margin-top: 100px;
+        
+        
+        
+
+    } 
+    p{
+        width: 100% ;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:385px) and (orientation: portrait)
+{
+    .about-me-text
+    {
+        font-size: 50px;
+        margin-left:15%;
+        width: 70%;
+        margin-top: 150px;
+        margin-bottom: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 920px) and (orientation : landscape)
+{
+
+    .about-me-text
+    {
+
+        font-size: 110px;
+        margin-left: 22%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: anta;
+        color: black;
+        width: 500px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+    }
+
+    .video
+    {
+        
+        
+        width:100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        
+
+    }
+    .about-me-paragraph
+    {
+        
+        
+        
+        width: 80%;
+        margin-left: 0px;
+        font-size: 30px;
+        font-family: anta;
+        border-style: dotted;
+        padding: 10px;
+        padding-left: 9%;
+        padding-right: 9%;
+        margin-left :4.5px;
+        margin-top: 50px;
+        
+        
+        
+
+    } 
+
+
+
+
+}
+@media only screen and (max-width: 760px) and (orientation : landscape)
+{
+
+    .about-me-paragraph
+    {
+    
+        width: 97.2%;
+        margin-left: 0px;
+        
+        font-size: 30px;
+        font-family: anta;
+        border-style: dotted;
+       
+        margin-top: 10px;
+        padding-right: 6px;
+        margin-top: 100px;
+        padding-left: 10px;
+
+    } 
+    p
+    {
+        width: 100%;
+        
+    }
+
+
+}
+
+

@@ -1,0 +1,330 @@
+.procedure-page
+{
+   height: 400px;
+   margin-left: 300px;
+   display: grid;
+   grid-template-rows:80px 1fr ;
+   
+   margin-top: 440px;
+}
+
+
+
+.procedure-text
+{
+    font-family: anta;
+    font-size: 110px;
+    
+    margin-left: 15%;
+    width: 40%;
+   
+    height: 130px;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-top-style: dotted;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+    padding-bottom: 8px;
+    
+}
+
+.procedure-details
+{
+    display: grid;
+    margin-top: 100px;
+    
+    grid-template-columns: 300px 300px 300px;
+    height: 100px;
+    column-gap: 60px;
+   
+    
+
+
+
+}
+
+.click
+{
+    width: 300px;
+    
+    
+    height: 300px;
+}
+.email
+{
+    
+}
+.talk
+{
+   
+}
+
+
+.click-image
+{
+    width: 250px;
+    
+}
+.mail-image
+{
+    width: 250px;
+    
+    
+    
+}
+.talk-image
+{
+    width: 250px;
+
+    
+}
+.click-explanation
+{
+
+    font-family: anta ;
+    font-size: 30px;
+}
+.mail-explanation
+{   
+    
+    font-family: anta;
+    font-size: 30px;
+    
+
+}
+.talk-explanation
+{
+
+    font-family: anta;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 600px )
+{
+
+    .procedure-page
+    {
+        height: 1000px;
+        margin-left: 10%;
+        width: 87%;
+        margin-top: 280px;
+    }
+
+    .procedure-text
+    {
+        font-family: anta;
+        font-size: 60px;
+        margin-top: 0px;
+        margin-left: 5%;
+        width: 90%;
+    
+        height: 70px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+        padding-bottom: 8px;
+        
+    }
+    .procedure-details
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+    
+    .click
+    {  
+        display: block;
+        margin-bottom: 50px;
+    }
+    .email
+    {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .talk
+    {
+        display: block;
+    }
+
+
+    .click-image
+    {
+        width: 200px;
+        margin-left: 25%;
+        
+    }
+    .mail-image
+    {
+        width: 200px;
+        margin-left: 20%;
+        
+        
+        
+    }
+    .talk-image
+    {
+        width: 250px;
+        margin-left: 10%;
+        
+        
+    }
+    .click-explanation
+    {
+
+        font-family: anta ;
+        font-size: 20px;
+        width: 95%;
+        margin-left: 10%;
+    }
+    .mail-explanation
+    {   
+        
+        font-family: anta;
+        font-size: 20px;
+        width: 90%;
+        margin-left: 10%;
+
+    }
+    .talk-explanation
+    {
+
+        font-family: anta;
+        font-size: 20px;
+        width: 90%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 920px ) and (orientation :landscape)
+{
+
+    .procedure-text
+    {
+        font-family: anta;
+        font-size: 110px;
+        margin-top: 50px;
+        margin-left: 25%;
+        padding-left: 0px;
+        width: 70%;
+    
+        height: 130px;
+        border-top-width: 3px;
+        border-top-color: black;
+        border-top-style: dotted;
+        border-bottom-width: 3px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
+        padding-bottom: 8px;
+        
+    }
+    .procedure-page
+    {
+        height: 1000px;
+        margin-left: 0%;
+        width: 87%;
+        margin-top: 450px;
+    }
+    .procedure-details
+    {
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 200px;
+        
+    }
+    .click
+    {  
+        display: block;
+        margin-bottom:100px;
+        width: 100%;
+        
+    }
+    .email
+    {
+        display: block;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .talk
+    {
+        display: block;
+        width: 100%;
+        
+        
+    }
+
+
+    .click-image
+    {
+        width: 250px;
+        margin-left: 45%;
+        
+    }
+    .mail-image
+    {
+        width: 250px;
+        margin-left: 45%;
+        
+        
+        
+    }
+    .talk-image
+    {
+        width: 250px;
+        margin-left: 45%;
+        
+        
+    }
+    .click-explanation
+    {
+
+        font-family: anta ;
+        font-size: 30px;
+        width: 95%;
+        margin-left: 10%;
+    }
+    .mail-explanation
+    {   
+        
+        font-family: anta;
+        font-size: 30px;
+        width: 90%;
+        margin-left: 10%;
+
+    }
+    .talk-explanation
+    {
+
+        font-family: anta;
+        font-size: 30px;
+        width: 90%;
+        margin-left: 10%;
+        margin-bottom: 70px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

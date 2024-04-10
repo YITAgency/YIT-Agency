@@ -1,0 +1,285 @@
+
+.hire-me-page
+{
+    
+    padding: 0px;
+    margin: 0px;
+    margin-top: 60px;
+    width: 100%; 
+    height: 750px;
+    display: block;
+
+}
+
+.hire-me-text
+{
+    padding-top: 10%;
+    padding-left: 38%;
+    
+    font-size: 70px;
+    color: white;
+
+    width: 60%;
+    font-family: anta;
+}
+
+.journey
+{
+    font-size: 60px;
+    color: white;
+    padding-left: 28%;
+    padding-top: 0;
+    width: 60%;
+    font-family: anta;
+}
+.us
+{
+    font-size: 70px;
+    color: white;
+    padding-left: 40%;
+    width: 60%;
+    font-family: anta;
+    margin-bottom: 40px;
+}
+.second-text
+{
+    margin-left: 20%;
+    font-size: 70px;
+    color: white;
+
+    font-family: anta;
+}
+.hire-me-button
+{
+  
+    font-size: 30px;
+    color: white;
+    background-color: rgb(144, 144, 144);
+    margin-left: 39.65%;
+    display: block;
+    font-family: anta;
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 300px;
+    transition: background-color 0.3s;
+}
+
+.hire-me-button:hover
+{
+    cursor: pointer;
+    background-color: gray;   
+} 
+
+
+.email-subscription
+{
+   
+    margin-left: 40%;
+    width: 270px;
+    height: 40px;
+    border-width: 0.3px;
+    padding-left: 15px;
+    font-family: Arial;
+    border-radius: 3px;
+
+}
+.email-subscription:focus
+{
+    outline: none;
+}
+
+
+/*MOBILE VERSION  */
+@media only screen and (max-width: 920px) and (orientation: landscape)
+{
+
+    .hire-me-text
+    {
+        padding-top: 30%;
+        padding-left: 34%;
+       
+        font-size: 50px;
+        color: white;
+
+        width: 40%;
+        font-family: anta;
+    }
+    .journey
+    {
+        font-size: 50px;
+        color: white;
+        margin-left: 0px;
+        padding-left: 20%;
+       
+        width: 70%;
+        font-family: anta;
+    }
+    .us
+    {
+        font-size: 60px;
+        color: white;
+        padding-left: 35%;
+        width: 40%;
+        font-family: anta;
+        margin-bottom: 40px;
+    }
+
+    .email-subscription
+    {
+    
+        margin-left: 38%;
+        
+        width: 200px;
+        height: 40px;
+        border-width: 0.3px;
+       
+        font-family: Arial;
+        border-radius: 3px;
+
+    }
+    .hire-me-button
+    {
+    
+        font-size: 30px;
+        color: white;
+        background-color: rgb(144, 144, 144);
+        margin-left: 40%;
+        display: block;
+        font-family: anta;
+        border: none;
+        border-radius: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+        margin-left: 39%;
+        width: 200px;
+        transition: background-color 0.3s;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media  only screen and (max-width: 600px) and (orientation : portrait)
+{
+    .page
+    {
+        width: 100%;
+    }
+ 
+
+    .hire-me-text{
+        font-size:60px;
+        padding-left: 15%;
+        width: 80%;
+        padding-top: 200px;
+        
+    }
+    .email-subscription
+    {
+    
+        margin-left: 23%;
+        
+        width: 200px;
+        height: 40px;
+        border-width: 0.3px;
+       
+        font-family: Arial;
+        border-radius: 3px;
+
+    }
+    .hire-me-button
+    {
+    
+        font-size: 30px;
+        color: white;
+        background-color: rgb(144, 144, 144);
+        margin-left: 40%;
+        display: block;
+        font-family: anta;
+        border: none;
+        border-radius: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+        margin-left: 25%;
+        width: 200px;
+        transition: background-color 0.3s;
+    }
+    .about-me-text
+    {
+        font-size: 40px;
+    }
+
+    .journey
+    {
+        font-size: 38px;
+        color: white;
+        padding-left: 2.5%;
+        padding-top: 0;
+        width: 97%;
+        font-family: anta;
+    }
+    .us
+    {
+        font-size: 60px;
+        color: white;
+        padding-left: 20%;
+        width: 70%;
+        font-family: anta;
+        margin-bottom: 40px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 385px) and (orientation : portrait)
+{
+    .hire-me-text
+    {
+        padding-top: 60%;
+        padding-left: 19%;
+        
+        font-size: 50px;
+        color: white;
+
+        width: 80%;
+        font-family: anta;
+    }
+
+    .journey
+    {
+        font-size: 30px;
+        color: white;
+        padding-left: 8%;
+        padding-top: 0;
+        width: 92%;
+        font-family: anta;
+    }
+    .us
+    {
+        font-size: 50px;
+        color: white;
+        padding-left: 25%;
+        width: 60%;
+        font-family: anta;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+
